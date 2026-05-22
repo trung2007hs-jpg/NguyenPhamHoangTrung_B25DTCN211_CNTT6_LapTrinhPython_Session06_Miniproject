@@ -8,7 +8,7 @@ while True:
     print("3. Xuất kho")
     print("4. Cảnh báo hàng tồn kho thấp")
     print("5. Thoát chương trình")
-    choice = input("Mời bạn chọn chức năng (1-5): ")
+    choice = input("Nhập lựa chọn của bạn: ")
     if choice == "1":
         print("\nBÁO CÁO SỐ LƯỢNG TỒN KHO")
         print(f"Laptop: {qty_laptop} sản phẩm")
@@ -97,7 +97,7 @@ while True:
         if not warning_triggered:
             print("Tất cả mặt hàng đều đạt mức an toàn (Tồn kho >= 10).")
     elif choice == "5":
-        print("\nHệ thống đang đóng... Tạm biệt!")
+        print("\nTạm biệt! Cam on vi da den.")
         break 
     else:
         print("Lựa chọn không hợp lệ!")
