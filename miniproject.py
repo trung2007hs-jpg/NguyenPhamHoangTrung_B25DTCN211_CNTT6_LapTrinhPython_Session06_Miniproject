@@ -14,19 +14,6 @@ while True:
         print(f"Laptop: {qty_laptop} sản phẩm")
         print(f"Phone:  {qty_phone} sản phẩm")
         print(f"Tablet: {qty_tablet} sản phẩm")
-        print("\n[BIỂU ĐỒ HOẠT HÌNH TRỰC QUAN]")
-        print(f"Laptop ({qty_laptop}): ", end="")
-        for i in range(qty_laptop):
-            print("*", end="")
-        print() 
-        print(f"Phone ({qty_phone}): ", end="")
-        for i in range(qty_phone):
-            print("*", end="")
-        print()
-        print(f"Tablet ({qty_tablet}): ", end="")
-        for i in range(qty_tablet):
-            print("*", end="")
-        print()
     elif choice == "2":
         print("\n=== TIẾN HÀNH NHẬP KHO ===")
         print("1 - Laptop | 2 - Phone | 3 - Tablet")
